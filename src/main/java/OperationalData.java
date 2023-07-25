@@ -1,4 +1,19 @@
+/**
+ * 类名称: OperationalData
+ * 类描述: 数据处理类
+         
+ * 作者: LTW        
+ * 创建时间: 2023年-07月-25日 15:07         
+*/
 public class OperationalData {
+     /**
+      * 方法名称: DataOperat
+      * 方法描述: 通过两个坐标点,及第三个点的x值算出其对应的y值
+      * 参数: double x1, double x2, double y1, double y2, double x
+      * 返回值:  
+      * 作者: LTW        
+      * 日期 2023年-07月-25日 15:25
+     */
     public double DataOperat(double x1, double x2, double y1, double y2, double x) {
         double y = 0;
 //       连接成三角形的底边为L1；竖边为L2
