@@ -11,7 +11,14 @@ import java.util.Collections;
 import java.util.List;
 
 public class ReadExcel {
-
+ /**
+  * 方法名称: main
+  * 方法描述: 插值数据主类
+  * 参数: 
+  * 返回值:  
+  * 作者: LTW        
+  * 日期 2023年-07月-25日 16:53         
+ */
     public static void main(String[] args) {
         List<String> fileList = getFilePath.getFilePath("C:\\Users\\LTW\\Desktop\\testdata");
         System.out.println("以下表格：");
